@@ -11,8 +11,9 @@
 		E75A85B520A0489F003401ED /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75A85B420A0489F003401ED /* Realm.framework */; };
 		E75A85B720A048A4003401ED /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75A85B620A048A4003401ED /* RealmSwift.framework */; };
 		E75A85B920A04A47003401ED /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75A85B820A04A47003401ED /* Todo.swift */; };
+		E75A85BB20A04C9A003401ED /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75A85BA20A04C9A003401ED /* TableViewController.swift */; };
+		E75A85BD20A04DAF003401ED /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75A85BC20A04DAF003401ED /* AddViewController.swift */; };
 		E7B1AC7720A046C8007D3053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1AC7620A046C8007D3053 /* AppDelegate.swift */; };
-		E7B1AC7920A046C8007D3053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1AC7820A046C8007D3053 /* ViewController.swift */; };
 		E7B1AC7E20A046C9007D3053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B1AC7D20A046C9007D3053 /* Assets.xcassets */; };
 		E7B1AC8120A046C9007D3053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B1AC7F20A046C9007D3053 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -24,9 +25,10 @@
 		E75A85B420A0489F003401ED /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75A85B620A048A4003401ED /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75A85B820A04A47003401ED /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		E75A85BA20A04C9A003401ED /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E75A85BC20A04DAF003401ED /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		E7B1AC7320A046C8007D3053 /* TodoRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B1AC7620A046C8007D3053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7B1AC7820A046C8007D3053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7B1AC7D20A046C9007D3053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B1AC8020A046C9007D3053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7B1AC8220A046C9007D3053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,11 +89,12 @@
 			isa = PBXGroup;
 			children = (
 				E7B1AC7620A046C8007D3053 /* AppDelegate.swift */,
-				E7B1AC7820A046C8007D3053 /* ViewController.swift */,
 				E7B1AC7D20A046C9007D3053 /* Assets.xcassets */,
 				E7B1AC7F20A046C9007D3053 /* LaunchScreen.storyboard */,
 				E7B1AC8220A046C9007D3053 /* Info.plist */,
 				E75A85B820A04A47003401ED /* Todo.swift */,
+				E75A85BA20A04C9A003401ED /* TableViewController.swift */,
+				E75A85BC20A04DAF003401ED /* AddViewController.swift */,
 			);
 			path = TodoRealm;
 			sourceTree = "<group>";
@@ -225,8 +228,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B1AC7920A046C8007D3053 /* ViewController.swift in Sources */,
 				E75A85B920A04A47003401ED /* Todo.swift in Sources */,
+				E75A85BB20A04C9A003401ED /* TableViewController.swift in Sources */,
+				E75A85BD20A04DAF003401ED /* AddViewController.swift in Sources */,
 				E7B1AC7720A046C8007D3053 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // ナビゲーションの設定
-        let viewController: ViewController = ViewController()
+        let viewController: TableViewController = TableViewController()
         let navigationController = UINavigationController(rootViewController: viewController)
         
         // ビューの設定
