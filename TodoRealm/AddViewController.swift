@@ -19,10 +19,15 @@ class AddViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.title = "Add Todo"
+        
         let viewWidth = self.view.bounds.width
         let viewHeight = self.view.bounds.height
         let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 5))
         paddingView.backgroundColor = UIColor.clear
+        let bodyPaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 5))
+        bodyPaddingView.backgroundColor = UIColor.clear
+        
         
         label.frame = CGRect(x: viewWidth / 4, y: viewHeight / 2 - 50, width: viewWidth / 2, height: 30)
         label.text = "Add your Todo"
@@ -31,10 +36,18 @@ class AddViewController: UIViewController {
         
         titleField.frame = CGRect(x: 20, y: viewHeight / 2, width: viewWidth - 40, height: 30)
         titleField.placeholder = "title"
-        titleField.layer.borderWidth = 1.0
+        titleField.layer.borderWidth = 0.5
         titleField.leftView = paddingView
         titleField.leftViewMode = .always
         self.view.addSubview(titleField)
+        
+        bodyField.frame = CGRect(x: 20, y: viewHeight / 2 + 50, width: viewWidth - 40, height: 30)
+        bodyField.placeholder = "body"
+        bodyField.layer.borderWidth = 0.5
+        bodyField.leftView = bodyPaddingView
+        bodyField.leftViewMode = .always
+        self.view.addSubview(bodyField)
+        
         
     }
 

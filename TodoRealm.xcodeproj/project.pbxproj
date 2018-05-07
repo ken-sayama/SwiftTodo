@@ -111,7 +111,6 @@
 				E7B1AC7020A046C8007D3053 /* Frameworks */,
 				E7B1AC7120A046C8007D3053 /* Resources */,
 				7F0F0BCE9025A8BEB4FF1395 /* [CP] Embed Pods Frameworks */,
-				0DBADDF342696BEE81836D88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,21 +167,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DBADDF342696BEE81836D88 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoRealm/Pods-TodoRealm-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7F0F0BCE9025A8BEB4FF1395 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,10 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7QR9297PH;
 				INFOPLIST_FILE = TodoRealm/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ken-sayama.test.TodoRealm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -390,10 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7QR9297PH;
 				INFOPLIST_FILE = TodoRealm/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ken-sayama.test.TodoRealm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
