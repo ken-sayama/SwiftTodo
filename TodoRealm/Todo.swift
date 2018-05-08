@@ -10,8 +10,7 @@ import Foundation
 import RealmSwift
 
 class Todo: Object {
-    @objc dynamic var id = 0
-    @objc dynamic var title = ""
-    @objc dynamic var body = ""
+    @objc dynamic var title: String = ""
+    @objc dynamic var body: String = ""
     @objc dynamic var created_at = Date()
 }
